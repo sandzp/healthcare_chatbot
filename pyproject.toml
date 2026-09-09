@@ -1,0 +1,24 @@
+[project]
+name = "healthcare-analytics-chatbot"
+version = "0.1.0"
+description = "An agentic healthcare analytics chatbot built on LangGraph"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "duckdb>=1.4.1",
+    "numpy>=2.0.0",
+    "openai>=2.6.0",
+    "pandas>=2.2.0",
+    "python-dotenv>=1.1.1",
+    "tqdm>=4.66.0",
+    "langgraph>=0.0.8",
+    "langchain-openai>=0.1.25",
+    "pydantic_settings>=2.8.1",
+    "pytest>=8.0.0",
+    "pytest-asyncio>=1.3.0",
+    "scipy>=1.17.0",
+    "chainlit>=2.9.6",
+    "asyncpg>=0.31.0",
+    "langgraph-checkpoint-postgres>=2.0.0",
+    "psycopg-binary>=3.3.0"
+]
